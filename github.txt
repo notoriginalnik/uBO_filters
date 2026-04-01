@@ -1,0 +1,7 @@
+
+! 2023-05-31 https://github.com
+github.com##.p-responsive.container-xl.width-full.footer
+github.com##.z-1.position-relative.height-full.p-responsive.flex-items-center.flex-lg-row.flex-column.d-flex.container-xl > .width-lg-auto.width-full.flex-items-center.flex-justify-between.d-flex
+github.com##.js-details-target.flex-justify-between.flex-items-center.d-flex.no-wrap.py-lg-2.py-3.px-lg-2.px-0.width-lg-auto.width-full.border-0.HeaderMenu-link
+github.com##.d-lg-inline-block.d-block.py-lg-2.py-3.px-lg-2.px-0.no-underline.HeaderMenu-link
+github.com##li > .btn.btn-sm.tooltipped-s.tooltipped

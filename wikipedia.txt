@@ -1,0 +1,15 @@
+
+! 2023 https://ru.wikipedia.org
+ru.wikipedia.org###mw-head
+||ru.wikipedia.org/static/images/project-logos/ruwiki.png$image
+ru.wikipedia.org##.portal.vector-menu-portal.mw-portlet-participation.mw-portlet.vector-menu
+ru.wikipedia.org##.portal.vector-menu-portal.mw-portlet-coll-print_export.mw-portlet.vector-menu
+ru.wikipedia.org##.portal.vector-menu-portal.mw-portlet-navigation.mw-portlet.vector-menu
+ru.wikipedia.org##.portal.vector-menu-portal.mw-portlet-tb.mw-portlet.vector-menu
+ru.wikipedia.org###bodyContent > .noprint
+
+!2025
+en.wikipedia.org##.com-w25-banner-action
+en.wikipedia.org##.no-font-mode-scale.mw-header.vector-header
+
+ru.wikipedia.org###siteNotice
