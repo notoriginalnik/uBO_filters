@@ -1,7 +1,6 @@
 # uBO_filters
 
-<a href="abp:subscribe?location=https://raw.githubusercontent.com/notoriginalnik/uBO_filters/refs/heads/main/duckduckgo.txt&title=uBO_filters">subscribe on html.duckduckgo_filter</a>  
-[subscribe on html.duckduckgo_filter](abp:subscribe?location=https://raw.githubusercontent.com/notoriginalnik/uBO_filters/refs/heads/main/duckduckgo.txt&title=uBO_filters)  
+https://raw.githubusercontent.com/notoriginalnik/uBO_filters/refs/heads/main/duckduckgo.txt  
 https://github.com/notoriginalnik/uBO_filters/raw/refs/heads/main/stackoverflow.txt  
 https://github.com/notoriginalnik/uBO_filters/raw/refs/heads/main/github.txt  
 https://github.com/notoriginalnik/uBO_filters/raw/refs/heads/main/wikipedia.txt  
@@ -45,3 +44,14 @@ google.com##a[href*="forkful.ai"]:upward(2):remove()
         "https://github.com/*",
         "https://*.github.io/*"
 ```
+А именно скрипт https://github.com/gorhill/uBlock/blob/master/src/js/scriptlets/subscriber.js должен их обрабатывать.
+
+Но в readme попытки запихнуть ссылки не успешны:
+```
+<a href="abp:subscribe?location=https://raw.githubusercontent.com/notoriginalnik/uBO_filters/refs/heads/main/duckduckgo.txt&title=uBO_filters">subscribe on html.duckduckgo_filter</a>  
+[subscribe on html.duckduckgo_filter](abp:subscribe?location=https://raw.githubusercontent.com/notoriginalnik/uBO_filters/refs/heads/main/duckduckgo.txt&title=uBO_filters)  
+```
+abp:subscribe?location=
+<a href="abp:subscribe?location=https://raw.githubusercontent.com/notoriginalnik/uBO_filters/refs/heads/main/duckduckgo.txt?a=0&title=Test-Mirror" title="uBlock Origin"></a>
+<a href="abp:subscribe?location=https://raw.githubusercontent.com/notoriginalnik/uBO_filters/refs/heads/main/duckduckgo.txt" title="uBlock Origin"></a>
+<abp:subscribe?location=https://raw.githubusercontent.com/notoriginalnik/uBO_filters/refs/heads/main/duckduckgo.txt>
