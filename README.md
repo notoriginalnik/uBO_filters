@@ -1,5 +1,6 @@
 # uBO_filters
 
+<a href="abp:subscribe?location=https://raw.githubusercontent.com/notoriginalnik/uBO_filters/refs/heads/main/duckduckgo.txt&title=uBO_filters">subscribe on html.duckduckgo_filter</a>  
 [subscribe on html.duckduckgo_filter](abp:subscribe?location=https://raw.githubusercontent.com/notoriginalnik/uBO_filters/refs/heads/main/duckduckgo.txt&title=uBO_filters)  
 https://github.com/notoriginalnik/uBO_filters/raw/refs/heads/main/stackoverflow.txt  
 https://github.com/notoriginalnik/uBO_filters/raw/refs/heads/main/github.txt  
@@ -31,3 +32,16 @@ google.com##a[href*="forkful.ai"]:upward(2):remove()
 
 
 Разные фильтры можно найти на сайте https://filterlists.com/
+
+
+В [манифесте](https://github.com/gorhill/uBlock/blob/master/platform/firefox/manifest.json) 
+указаны наиболее популярные сайты где выкладывают фильтры, и где работают ссылки подписки вида
+`abp:subscribe?location=`:
+```
+        "https://easylist.to/*",
+        "https://*.fanboy.co.nz/*",
+        "https://filterlists.com/*",
+        "https://forums.lanik.us/*",
+        "https://github.com/*",
+        "https://*.github.io/*"
+```
