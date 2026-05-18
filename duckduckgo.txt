@@ -8,6 +8,7 @@ html.duckduckgo.*##.results > div:has(a[href*=".linkedin.com/"])
 html.duckduckgo.*##.results > div:has(a[href*="/pinterest.com/"])
 html.duckduckgo.*##.results > div:has(a[href*="/pinterest.ch/"])
 html.duckduckgo.*##.results > div:has(a[href*="/pinterest.ie/"])
+html.duckduckgo.*##.results > div:has(a[href*=".pinterest.com/"])
 html.duckduckgo.*##.results > div:has(a[href*="pinterest.com.au/"])
 html.duckduckgo.*##.results > div:has(a[href*="/facebook.com/"])
 html.duckduckgo.*##.results > div:has(a[href*=".facebook.com/"])
@@ -16,7 +17,6 @@ html.duckduckgo.*##.results > div:has(a[href*="/tiktok.com/"])
 html.duckduckgo.*##.results > div:has(a[href*=".tiktok.com/"])
 html.duckduckgo.*##.results > div:has(a[href*="/rutube.ru/"])
 html.duckduckgo.*##.results > div:has(a[href*="/x.com/"])
-
 
 html.duckduckgo.*##.results > div:has(a[href*=".apple.com/"])
 html.duckduckgo.*##.results > div:has(a[href*="www.songarea.com/"])
@@ -29,6 +29,7 @@ html.duckduckgo.*##a[href*="/soundcloud.com/"]:upward(div):remove()
 
 html.duckduckgo.*##.results > div:has(a[href*="play.google.com/"])
 
+html.duckduckgo.*##.results > div:has(a[href*="www.bing.com/"])
 html.duckduckgo.*##.results > div:has(a[href*="/bing.com/"])
 html.duckduckgo.*##.results > div:has(a[href*="www.msn.com/"])
 html.duckduckgo.*##.results > div:has(a[href*="www.who.int/"])
@@ -322,6 +323,14 @@ html.duckduckgo.*##.results > div:has(a[href*="/3dnews.ru/"])
 html.duckduckgo.*##.results > div:has(a[href*="/innostage-group.ru/"])
 html.duckduckgo.*##.results > div:has(a[href*="/inauka.ru/"])
 
+html.duckduckgo.*##.results > div:has(a[href*=".1prime.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*=".sport-express.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/russiatoday.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*=".gordonua.com/"])
+html.duckduckgo.*##.results > div:has(a[href*="/ytro.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*=".foxnews.com/"])
+html.duckduckgo.*##.results > div:has(a[href*=".rambler.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/m.gazeta.ru/"])
 
 !---------------------------------
 !маркетплейсы
@@ -396,6 +405,7 @@ html.duckduckgo.*##.results > div:has(a[href*="/monster-book.com/"])
 html.duckduckgo.*##.results > div:has(a[href*="/iknigi.net/"])
 html.duckduckgo.*##.results > div:has(a[href*="/flibusta.info/"])
 html.duckduckgo.*##.results > div:has(a[href*="/litresp.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/litres.com/"])
 
 
 !---------------------------------
@@ -439,6 +449,15 @@ html.duckduckgo.*##.results > div:has(a[href*="/tvcent.ru/"])
 html.duckduckgo.*##.results > div:has(a[href*="/tns28.ru/"])
 html.duckduckgo.*##.results > div:has(a[href*="/ihmir.ru/"])
 html.duckduckgo.*##.results > div:has(a[href*=".ihmir.ru/"])
+
+html.duckduckgo.*##.results > div:has(a[href*=".kniga-vsluh.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/kniga-vsluh.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*=".oslovah.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/oslovah.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/proytube.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*=".vot-tac.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/vot-tac.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/pozdravit.top/"])
 
 !llm image
 html.duckduckgo.*##.results > div:has(a[href*=".gallerix.org/"])
