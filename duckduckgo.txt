@@ -332,6 +332,10 @@ html.duckduckgo.*##.results > div:has(a[href*=".foxnews.com/"])
 html.duckduckgo.*##.results > div:has(a[href*=".rambler.ru/"])
 html.duckduckgo.*##.results > div:has(a[href*="/m.gazeta.ru/"])
 
+html.duckduckgo.*##.results > div:has(a[href*="/media.halvacard.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/super.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/sunmag.me/"])
+
 !---------------------------------
 !маркетплейсы
 !html.duckduckgo.*##.results > div:has(a[href*="www.amazon."])
@@ -469,6 +473,30 @@ html.duckduckgo.*##.results > div:has(a[href*="/gallerix.asia/"])
 html.duckduckgo.*##.results > div:has(a[href*="/ai-news.ru/"])
 html.duckduckgo.*##.results > div:has(a[href*="/www.ai.cc/"])
 
+html.duckduckgo.*##.results > div:has(a[href*="/kassy-evotor.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*=".mygadanie.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/mygadanie.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/guru-uborki.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/dzlh.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/commercial-citroen.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*=".invest82.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*=".ngs123.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/ngs123.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/prikormrebenka.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*=".pyatimenutka.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/pyatimenutka.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*=".nerv-system.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*=".voshod-reklama.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/voshod-reklama.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/turniketpro.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*=".akademiakhv.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/akademiakhv.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/vseonaruto.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*=".kak-pochemy.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/kak-pochemy.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/fixicomp.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/dveripetli.ru/"])
+
 
 !---------------------------------
 !медицина
@@ -488,3 +516,4 @@ html.duckduckgo.*##.results > div:has(a[href*="/cryptomus.com/"])
 html.duckduckgo.*##.results > div:has(a[href*="/skillfactory.ru/"])
 html.duckduckgo.*##.results > div:has(a[href*="/sky.pro/"])
 html.duckduckgo.*##.results > div:has(a[href*="/wiki.merionet.ru/"])
+html.duckduckgo.*##.results > div:has(a[href*="/skyeng.ru/"])
